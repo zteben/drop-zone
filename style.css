@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/landing.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+
+}
+
+
+.logo {
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+    position: relative;
+   
+}
+
+.logo p{
+    background-color: black;
+
+    width: 100%;
+    padding-left: 7px;
+    margin-top: 10px;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 7px;
+    text-align: center;
+    
+
+    font-family: 'Rozha One';
+    font-style: normal;
+    font-weight:  300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rozhaone/v13/AlZy_zVFtYP12Zncg2kRcn35.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#l2 {
+    margin-left: 30px;
+}
+
+.content {
+    float: right;
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 17%;
+}
+
+@media (max-width: 1500px) {
+    .content {
+    margin-left: 0%;
+    margin-bottom: 7%;
+    bottom: 0;
+    }
+  }
+
+#c1 {
+    font-size: 63px;
+    letter-spacing: 7px;
+    white-space: nowrap;
+    margin-bottom: 35px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+@media (max-width: 1500px) {
+    #c1 {
+    font-size: 30px;
+    }
+  }
+
+
+
+
+
+
+
+
+.countdown {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+
+    }
+
+.t1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+
+}
+
+
+.t2 {
+    display: flex;
+    gap:15px;
+    margin-bottom: 10px;
+    
+}
+
+.t3 {
+    display: block;
+    font-size: 65px;
+    width: 75px;
+  
+    font-family: 'Rozha One';
+    font-style: normal;
+    font-weight:  300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rozhaone/v13/AlZy_zVFtYP12Zncg2kRcn35.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+}
+
+.t4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+#c2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
