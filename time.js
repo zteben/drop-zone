@@ -30,5 +30,5 @@ var x = setInterval(function timer() {
     document.getElementById("days0").innerHTML = String(days)[0];
     document.getElementById("days1").innerHTML = String(days)[1];
 
-}, 300);
+}, 0);
 

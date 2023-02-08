@@ -49,27 +49,19 @@
 }
 
 .content {
-    float: right;
     position: absolute;
     text-align: center;
-    margin-left: 50%;
-    margin-top: 17%;
+    top: 35%;
+    left: 48%;
+    
 }
 
-@media (max-width: 1500px) {
-    .content {
-    margin-left: 0%;
-    margin-bottom: 7%;
-    bottom: 0;
-    }
-  }
 
 #c1 {
     font-size: 63px;
     letter-spacing: 7px;
     white-space: nowrap;
     margin-bottom: 35px;
-
 
     font-family: 'Roboto';
     font-style: normal;
@@ -79,25 +71,13 @@
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
-@media (max-width: 1500px) {
-    #c1 {
-    font-size: 30px;
-    }
-  }
-
-
-
-
-
-
-
 
 .countdown {
     display: flex;
     gap: 30px;
     margin: 20px;
-
     }
+
 
 .t1 {
     text-align: center;
@@ -118,7 +98,6 @@
     display: flex;
     gap:15px;
     margin-bottom: 10px;
-    
 }
 
 .t3 {
@@ -136,18 +115,12 @@
 }
 
 .t4 {
+    position: relative;
     background-color: black;
     color: white;
     text-align: center;
-    position: relative;
+    padding-left: 3px;
 }
-
-
-
-
-
-
-
 
 
 #c2 {
@@ -161,3 +134,38 @@
     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
+@media (max-width: 1500px) {
+    .content {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        }
+
+    .countdown {
+        gap: 15px;
+        margin: 20px;
+    }
+    #c1 {
+        font-size: 30px;
+        letter-spacing: 4px;
+        }
+    .t1{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .t2 {
+        gap:8px;
+        margin-bottom: 5px;
+    }
+    .t3 {
+        font-size: 35px;
+        width: 40px;
+    }
+
+    .t4 {
+        padding-left: 2px;
+    }
+
+    }
