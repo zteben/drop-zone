@@ -1,6 +1,11 @@
 # Drop Zone
 Diff technical interview question.
 
+## My Result
+<p align="center">
+    <img src="leezyboost.gif"/>
+</p>
+
 ## Instructions
 * There are no time restrictions.
 * The exercise is open-book, feel free to use any resource available to you.
