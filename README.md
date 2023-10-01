@@ -3,7 +3,7 @@ Diff technical interview question.
 
 ## My Result
 <p align="center">
-    <img src="leezyboost.gif"/>
+    <img src="leezyboost.gif" width="800"/>
 </p>
 
 ## Instructions
